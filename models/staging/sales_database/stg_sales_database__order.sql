@@ -1,5 +1,6 @@
 select
-    order_id,
+    1 as coumn1,
+	order_id,
     user_name as user_id,
     order_status,
     DATETIME(order_date, "Europe/Paris") AS order_created_at,
