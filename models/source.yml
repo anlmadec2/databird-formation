@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: googles_analytics_4
+    schema: google_analytics_4
+    tables:
+      - name: events
+
+  - name: sales_database
+    schema: sales_database
+    tables:
+      - name: feedback
+      - name: payment
+      - name: product
+      - name: order
+      - name: order_item
+      - name: seller
+      - name: user
+      - name: account_manager_region_mapping
+
+  - name: spotify
+    schema: spotify
+    tables:
+      - name: listening_data
+      - name: songs
+
+  - name: airbnb
+    schema: airbnb
+    tables:
+      - name: listings
