@@ -1,4 +1,5 @@
 SELECT 2 as column2,
+  1 as column1,
 	DATE_TRUNC(order_created_at, DAY) AS reporting_date,
     mapping.account_manager,
     mapping.state,
